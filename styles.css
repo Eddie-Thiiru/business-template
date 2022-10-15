@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;   
+}
+
+.section-one{
+    background-color: #1F2937;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+}
+
+.header-one, .header-two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-two {
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
