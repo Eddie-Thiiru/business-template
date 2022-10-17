@@ -25,14 +25,14 @@ body {
 .header-logo {
     color: chocolate;
     font-size: 24PX;
-    font-weight: 900;
+    font-weight: 800;
     margin-bottom: 72px; 
 }
 
 .title {
     font-size: 48px;
     color: #f9faf8;
-    font-weight: 900
+    font-weight: 800;
 }
 
 .subtext {
@@ -43,7 +43,7 @@ body {
 button {
     color: #f9faf8;
     background-color: #3882f6;
-    font-weight: 900;
+    font-weight: 800;
     padding: 6px 24px;
     border: none;
     border-radius: 6px;   
@@ -72,3 +72,32 @@ a:hover {
     margin-top: 72px;  
 }
 
+.section-two {
+    display: flex; 
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 28px;
+}
+
+.title-two {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center; 
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 32px;   
+}
+
+.image img {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.text {
+    width: 132px;
+    text-align: center;
+}
